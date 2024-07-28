@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios - Parte 1</title>
+</head>
+<body>
+    <form action="" method="GET" enctype="" target="">
+
+        <input name="navegador" type="text" list="navegadores">
+
+        <datalist id="navegadores">
+            <option value="Edge">
+            <option value="Chrome">
+            <option value="Opera">
+            <option value="Safari">
+            <option value="Firefox">
+        </datalist>
+
+        <br>
+
+        <input name="rango" type="range" min="0" max="250" value="0" step="20" style="width: 250px;">
+<br>
+        <input name="volumen" type="range" list="litaVolumen">
+        
+        <datalist id="litaVolumen">
+            <option value="10">
+            <option value="20">
+            <option value="30">
+            <option value="40">
+            <option value="50">
+            <option value="60">
+            <option value="70">
+            <option value="80">
+            <option value="90">
+            <option value="100">
+        </datalist>
+        <br>
+
+        
+
+
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>

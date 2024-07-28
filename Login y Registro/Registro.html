@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="dashboard.html">
+        <h1>Registrate Ahora</h1>
+        <input class="inp" type="text" name="Nombre" placeholder="Nombre">
+        <input class="inp" type="text" name="Apellido" placeholder="Apellido"><br>
+        <input class="inp" type="text" name="Usuario" placeholder="Usuario">
+        <input class="inp" type="password" name="password" placeholder="Contraseña"><br>
+        <input class="inp" type="email" name="Email" placeholder="Correo de Usuario" style="width: 440px"><br>
+        <h1>Fecha de Nacimiento</h1>
+        <Select name="Nacimiento[Dia]" id="Nacimiento">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </Select>
+        <Select name="Nacimiento[Mes]" id="Nacimiento">
+            <option value="Enero">Enero</option>
+            <option value="Febrero">Febrero</option>
+            <option value="Marzo">Marzo</option>
+            <option value="Abril">Abril</option>
+            <option value="Mayo">Mayo</option>
+        </Select>
+        <Select name="Nacimiento[Anio]" id="Nacimiento">
+            <option value="2019">2019</option>
+            <option value="2020">2020</option>
+            <option value="2021">2021</option>
+            <option value="2022">2022</option>
+            <option value="2023">2023</option>
+        </Select><br><br>
+        <h3>Genero</h3>
+        <label for="Mujer">
+            <input type="radio" name="Genero" id="Mujer" class="mb-05">
+            Mujer
+        </label>
+        <label for="Hombre">
+            <input type="radio" name="Genero" id="Hombre" class="mb-05">
+            Hombre
+        </label>
+        <label for="Otro">
+            <input type="radio" name="Genero" id="Otro" class="mb-05">
+            Otro
+        </label>
+        
+        <h3>Selecciona Noticia de Interes</h3>
+                <label for="Deporte">
+            <input type="checkbox" name="Genero" id="Deporte" class="mb-05">
+            Deporte
+        </label><br>
+        <label for="Medicina">
+            <input type="checkbox" name="Genero" id="Medicina" class="mb-05">
+            Medicina
+        </label>
+        <br>
+        <label for="Tecnologia">
+            <input type="checkbox" name="Genero" id="Tecnologia" class="mb-05">
+            Tecnologia
+        </label>
+        <br>
+        <br>
+
+        <a href="Login.html">Iniciar Sesion</a><br><br>
+        <button type="submit">Registrarse</button>
+    </form>
+
+</body>
+</html>

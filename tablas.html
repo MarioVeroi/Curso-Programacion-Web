@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+</head>
+<body>
+
+    <!–tr significa que es una Fila–> 
+    <!–td significa que es una Celda->
+
+    <style>
+
+         table{
+            border-collapse: collapse;
+         }
+         thead, tfoot{
+            background-color: brown;
+            color: white;
+         }
+        th,td{
+            border: 1px solid black;
+            padding: 5px 7px;
+        }
+    </style>
+
+    <H1>Tablas Ejercicios</H1>
+    <br>
+    <table>
+        <caption>Usuarios</caption>
+        <colgroup style="background-color: aqua;"></colgroup>
+        <colgroup span="2" style="background-color:chartreuse;"></colgroup>
+        <colgroup style="background-color: rgb(208, 255, 0);"></colgroup>
+        <colgroup style="background-color: rgb(255, 0, 98);"></colgroup>
+        <colgroup style="background-color: rgb(255, 94, 0);"></colgroup>
+        <thead>
+            <tr>
+                <th style="background-color: blue;" colspan="4">Informacion Basica</th>
+                <th style="background-color: black;" colspan="2">Aspecto Fisico</th>
+            </tr>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Ciudad</th>
+                <th>Telefono</th>
+                <th>Altura</th>
+                <th>Peso</th>
+            </tr>
+        </thead>
+    <tbody>
+        <tr>
+            <td>Daniel</td>
+            <td>Pineda</td>
+            <td>Mexico</td>
+            <td>85485455</td>
+            <td>1.89 cm</td>
+            <td>100 lbs</td>
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>Gutierrez</td>
+            <td>Tegucigalpa</td>
+            <td>85485455</td>
+            <td>1.75 cm</td>
+            <td>160 lbs</td>
+        </tr>
+        <tr>
+            <td>Manuel</td>
+            <td>Contreras</td>
+            <td>SPS</td>
+            <td>85485455</td>
+            <td>1.69 cm</td>
+            <td>146 lbs</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Ciudad</th>
+            <th>Telefono</th>
+            <th>Altura</th>
+            <th>Peso</th>
+        </tr>
+    </tfoot> 
+    </table>
+</body>
+</html>
