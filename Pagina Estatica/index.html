@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Practica - Strict</title>
+
+    <style>
+
+        h1, h2, h3, h4, h5, h6, p, span, strong, a, button{
+            font-family: sans-serif;
+        }
+
+        h1, h2, h3, h4, h5, h6{
+            margin: 0;
+            padding: 0;
+        }
+
+        .bg-1{
+            background-color: #f6f9f9;
+        }
+
+        .contenedor{
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        .caja-servicios{
+         width: 33.333333333%;
+         text-align: center;   
+         padding: 0 15px;
+        }
+
+        .caja-servicios img{
+            margin-bottom: 15px;
+        }
+
+        .caja-servicios h5{
+            font-size: 20px;
+            margin-bottom: 10px;
+            color: #2d3950;
+        }
+
+        .caja-servicios p{
+            color: #999;
+        }
+        
+        .c1{
+            color: #2d3950;
+        }
+
+        .c2{
+            color: #999;
+        }
+
+        .pd-90{
+            padding: 90px 0;
+        }
+
+        .fs-35{
+            font-size: 35px;
+        }
+        .caja-galeria{
+            width: 33.333333%;
+            padding: 0 15px;
+        }
+
+        .caja-galeria img{
+            width: 100%;
+            display: block;
+        }
+        
+        .fila{
+            display: flex;
+            margin-bottom: 20px;
+        }
+
+        .form-input{
+            width: 100%;
+            padding: 18px;
+            background-color: transparent;
+            border: 1px solid #999;
+            margin-bottom: 15px;
+        }
+    </style>
+
+</head>
+
+<body style="margin: 0; padding: 0;">
+
+    <div class="bg-1">
+        <div class="contenedor" style="padding: 30px 0;">
+            <img style="display: block;" src="Strict-assets/logo-strict.png" alt="">
+        </div>
+    </div>
+    
+    <header style="background: url(Strict-assets/bg-header.jpg); height: 600px;
+                   display: flex; justify-content: center;
+                   align-items: center; background-size: cover;">
+    
+        <div class="info-header" style="width: 640px; text-align: center;">
+            <h2 style="font-size: 113px; color:white;">STRICT</h2>
+            <hr style="border-color: #15a4fa;">
+            <p style="color: white;">
+                STRICT is a responsive theme with a clean and minimal look.
+            </p>
+            <a href="../index.html"><button style="background-color: transparent; border: 1px solid  #15a4fa;
+            padding: 15px 35px; border-radius: 5px; color: white; font-size: 20px;">Call to action</button></a>
+        </div>
+    </header>
+
+    <section class="bg-1" id="simple" style="padding: 90px 0; text-align: center;">
+           <div class="contenedor">
+            <h3 style="font-size: 40px; color: #2d3950;">Simple & pure desing</h3>
+            <p style="color: #999;">
+                Desingers everywhere gush with admiration upon seeing a web desing and exclaim "its beatiful, it's so
+                clean!"
+                . There are a countless number of webdesing round-ups dedicated to 'clean' desing and it is a term
+                thrown around
+                quite a bit in the web desing community. It can be easy to spot a good example of clean desing.
+            </p>
+            </div>
+    </section>
+
+    <section id="servicios" class="pd-90">
+
+        <div class="contenedor" style="display: flex;">
+            <div class="caja-servicios">
+                <img src="Strict-assets/icon-movil.jpg" alt="">
+                <h5>Optimized for all devices</h5>
+                <p>STRICT has been desinged to be fully responsive on all devices</p>
+            </div>
+            <div class="caja-servicios">
+                <img src="Strict-assets/icon-enviar.jpg" alt="">
+                <h5>Optimized for all devices</h5>
+                <p>STRICT has been desinged to be fully responsive on all devices</p>
+            </div>
+            <div class="caja-servicios">
+                <img src="Strict-assets/icon-voz.jpg" alt="">
+                <h5>Optimized for all devices</h5>
+                <p>STRICT has been desinged to be fully responsive on all devices</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="Showcase" class="bg-1 pd-90">
+        <div class="contenedor">
+            <div class="encabezado" style="text-align: center; margin-bottom: 50px;">
+                <h2 class="c1 fs-35">Showcase your work like a pro</h2>
+                <span class="c2">Contact me if you like my work</span>
+            </div>
+    
+            <div class="galeria">
+                <div class="fila">
+                    <div class="caja-galeria">
+                        <img src="Strict-assets/show-1.jpg" alt="">
+                    </div>
+                    <div class="caja-galeria">
+                        <img src="Strict-assets/show-2.jpg" alt="">
+                    </div>
+                    <div class="caja-galeria">
+                        <img src="Strict-assets/show-3.jpg" alt="">
+                    </div>
+                </div>
+                <div class="fila">
+                    <div class="caja-galeria">
+                        <img src="Strict-assets/show-4.jpg" alt="">
+                    </div>
+                    <div class="caja-galeria">
+                        <img src="Strict-assets/show-5.jpg" alt="">
+                    </div>
+                    <div class="caja-galeria">
+                        <img src="Strict-assets/show-6.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="stay" style="background: url(Strict-assets/bg-stay.jpg);" class="pd-90">
+        <div class="contenedor">
+            <div class="encabezado" style="text-align: center; margin-bottom: 20px;">
+                <h2 class="fs-35" style="color: white;">Stay with us</h2>
+                <span style="color: #999;">We ensure quailty & support</span>
+            </div>
+    
+            <form action="" id="contacto">
+                <input class="form-input" type="text" placeholder="Full Name">
+                <input class="form-input" type="text" name="" placeholder="Email address">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+    
+                <div>
+                    <div class="check">
+                        <input id="subs" type="checkbox">
+                        <label for="subs">Subscribe Newsletter</label>
+                    </div>
+                    <div class="btn">
+                        <button>Send</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <span>Copyright 2023 STRIC</span>
+        <div class="redes-sociales">
+            <a href="#" target="_blank"><img src="Strict-assets/icon-facebook.jpg" alt=""></a>
+            <a href="#" target="_blank"><img src="Strict-assets/icon-twitter.jpg" alt=""></a>
+            <a href="#" target="_blank"><img src="Strict-assets/icon-google-plus.jpg" alt=""></a>
+            <a href="#" target="_blank"><img src="Strict-assets/icon-linked-in.jpg" alt=""></a>
+        </div>
+    </footer>
+</body>
+</html>
