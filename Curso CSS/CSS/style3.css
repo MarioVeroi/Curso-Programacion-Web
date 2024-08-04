@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#navegacion{
+height: 50px;
+background-color: aquamarine;
+}
+
+#slader{
+    height: 150px;
+    background-color: aqua;
+}
+
+#servicios{
+    height: 120px;
+    background-color: palevioletred;
+}
+
+#pie{
+    height: 90px;
+    background-color: cadetblue;
+}
+
+h1{
+    text-align: center;
+}
+.servi1{
+    width: 80px;
+    height: 80px;
+    background-color: rgb(206, 32, 32);
+    border-radius: 50%;
+    display: inline-block;
+}
