@@ -1,12 +1,44 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
 
-[title]{
-    background-color: aquamarine;
+[title="Etiqueta1 copia4"] {
+    background-color: aqua;
 }
 
-[title="Etiqueta1 copia3"]{
-    background-color: aqua;
+/*El siguiente atributo solo agarra los estilos que tengan un Espacio Por ejemplo "parrafo texto"*/
+[data-parrafo~="parrafo"] {
+    background-color: blue;
+    font-size: 50px;
+}
+
+/*El siguiente atributo solo agarra los estilos que tengan un Guion Por ejemplo "parrafo-texto"*/
+[data-parrafo|="parrafo"] {
+    background-color: rgb(209, 57, 19);
+    font-size: 50px;
+}
+
+/*El siguiente atributo solo agarra los estilos que tengan una palabra anexada como por ejemplo "con"*/
+h3[title^="con"] {
+    background-color: rgb(71, 48, 155);
+    color: white;
+    padding: 10px;
+}
+
+/*El siguiente atributo solo agarra los estilos que tengan la terminacion de la palabra como por ejemplo "tador3"*/
+h3[title$="tador3"] {
+    background-color: rgba(212, 185, 32, 0.808);
+    color: rgb(3, 3, 3);
+    padding: 10px;
+}
+
+/*El siguiente atributo solo agarra los estilos que tenga la palabra clave en cualquier parte del selector por ejemplo: h2[title*="contenedor"]*/
+h2[title*="contenedor"] {
+    background-color: rgba(63, 208, 252, 0.808);
+    color: rgb(3, 3, 3);
+    padding: 10px;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-left: 10px;
 }
