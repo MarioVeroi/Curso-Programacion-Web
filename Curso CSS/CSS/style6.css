@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*Firt-Child seria dar estilos al primer Hijo de la etiqueta padre. en este caso seria La etiqueta span como child de p*/
+p span:first-child {
+    background-color: rgb(31, 204, 195);
+}
+
+/*Last-Child Seria dar estilos al ultimo hijo de la etiqueta padre. 
+En este caso seria la ultima etiqueta span que este dentro de la etiqueta padre: p*/
+p span:last-child {
+    background-color: rgb(199, 68, 35);
+    color: rgb(250, 250, 250);
+}
+
+/*Only-Child Seria dar estilos cuando solo existe un Hijo de la etiqueta padre.*/
+h3 span:only-child{
+    background-color: black;
+    color: white;
+}
+
+.prueba{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*Se aplican los estilos cuando la etiqueta tenga el lenguaje correcto que tiene el domcumento HTML
+En este caso es "en"*/
+h2:lang(en){
+    background-color: rgb(21, 90, 44);
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+}
+
+a{
+    display: block;
+    margin: 5px;
+    text-decoration: none;
+}
+
+a:link{
+    color: rgb(255, 0, 0);
+}
+
+a:visited{
+    color: rgb(3, 28, 255);
+}
+
+a:hover, p:hover{
+    padding: 20px;
+    background-color: aqua;
+}
+
+a:active{
+    background-color: black;
+    color: white;
+}
+
+textarea:focus, input:focus{
+    background-color: rgb(184, 90, 90);
+    color: black;
+}
