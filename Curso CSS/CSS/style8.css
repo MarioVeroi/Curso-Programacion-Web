@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+}
+
+article > *{
+    padding: 6px;
+    margin: 2px;
+    border: 1px solid rgb(41, 193, 231);
+}
+
+/*
+pseudoclase :first-of-type selecciona el primer elemento de su tipo dentro de su elemento padre. 
+Esto significa que aplicará estilos al primer hijo de un determinado tipo. 
+Como el primer <p>, <div>, <li>, o cualquier otra etiqueta dentro de un contenedor.
+*/
+
+article div:first-of-type{
+    background-color: rgba(7, 20, 211, 0.884);
+}
+
+article li:first-of-type{
+    background-color: rgba(29, 224, 133, 0.884);
+}
+
+/*
+Si utilizamos el Last-of-type seria al reves. 
+Seria aplicar los cambios al ultimo elemento.
+*/
+
+article li:last-of-type{
+    background-color: brown;
+}
+
+article div:last-of-type{
+    background-color: rgb(218, 32, 218);
+}
+
+article :nth-child(odd){
+    background-color: rgb(108, 57, 156);
+}
+
+article p:only-of-type{
+    background-color: rgb(212, 153, 25);
+}
+
+
+article div:nth-of-type(5){
+    background-color: rgb(70, 175, 179);
+}
