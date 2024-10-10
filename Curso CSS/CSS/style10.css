@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+form{
+    width: 20%;
+}
+
+input:enabled{
+    background-color: green;
+    color: red;
+}
+
+input:disabled{
+    background-color: red !important;
+    color: rgb(255, 255, 255);
+}
+
+input:checked{
+    width: 100px;
+    height: 100px;
+}
+
+.inputs{
+    width: 30px;
+    height: 30px;
+}
