@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Le damos Estilos a la Primera Linea del Parrafo*/
+p::first-line{
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+}
+
+/*Le damos Estilos a la Primera Letra del Parrafo*/
+p::first-letter{
+    color: rgb(234, 235, 240);
+    font-size: 40px;
+    background-color: brown;
+    padding: 2px 5px;
+    text-transform: uppercase;
+}
+
+/*Le "Agregamos Contenido al H1 utilizando la Tecnica del BEFORE que seria.
+ Agregar contenido ANTES del contenido que contiene el H1"*/
+h1::before{
+    content: 'Seguiente Clase, ';
+    color: rgb(0, 255, 34);
+}
+
+h2::after{
+    content: 'AFTER';
+    color: red;
+    font-size: 30px;
+}
+
+h2,h3{
+    text-align: center;
+}
+
+::selection{
+    background-color: red;
+    color: white;
+}
