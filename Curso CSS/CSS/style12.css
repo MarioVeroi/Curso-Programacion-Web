@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    color: red;
+}
+
+.contenedor, .contenedor2{
+    display: flex;
+    justify-content: center;
+}
+
+.texto, .texto2{
+    height: 700px;
+    width: 500px;
+    border: 1px solid black;
+    overflow: auto;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: rgba(158, 155, 147, 0.342);
+}
+
+::-webkit-scrollbar-thumb{
+background-color: rgb(12, 222, 230);
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-color: rgb(3, 3, 3);
+}
+
+::-webkit-scrollbar-thumb:active{
+    background-color: rgba(104, 101, 101, 0.486);
+}
+
+::-webkit-scrollbar-button{
+    background-color: rgb(255, 1, 1);
+}
