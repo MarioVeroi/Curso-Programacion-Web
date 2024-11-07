@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 20px;
+}
+
+p{
+    font-family: Arial;
+    font-style: bold;
+    font-weight: 900;
+    font-size: small;
+    font-variant: small-caps; /*Permite que esten en mayusculas, Pero conservando su tamaño*/
+}
