@@ -9,4 +9,11 @@ p{
     font-weight: 900;
     font-size: small;
     font-variant: small-caps; /*Permite que esten en mayusculas, Pero conservando su tamaño*/
+    text-indent: 30px;
+    text-transform:  uppercase;
+    white-space: pre-wrap;
+    word-spacing: 30px;
+    letter-spacing: 20px;
+    text-align: center;
+    text-decoration: line-through;
 }
