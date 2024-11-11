@@ -3,17 +3,37 @@
     padding: 20px;
 }
 
-p{
+.Propiedades-Fuentes{
     font-family: Arial;
     font-style: bold;
-    font-weight: 900;
-    font-size: small;
+    font-weight: 100;
+    font-size: 10px;
     font-variant: small-caps; /*Permite que esten en mayusculas, Pero conservando su tamaño*/
-    text-indent: 30px;
+    text-indent: 2px;
     text-transform:  uppercase;
     white-space: pre-wrap;
-    word-spacing: 30px;
-    letter-spacing: 20px;
+    word-spacing: 10px;
+    letter-spacing: 10px;
     text-align: center;
     text-decoration: line-through;
+}
+
+p{
+    height: 20px;
+    font-family: helvetica, sans-serif;
+    font-size: 20px;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: brown;
+    text-decoration-line: underline;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-shadow: 10px 10x ;
+}
+
+h2{
+    text-shadow: 5px 5px 5px rgb(2, 247, 255);
+    text-align: center;
+    text-transform: uppercase;
 }
