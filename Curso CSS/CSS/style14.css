@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    font-family: Helvetica, Sans-serif;
+}
+
+ol, ul {
+    list-style-type: none ; /* Oculta el estilo de lista original */
+    padding-left: 20px; /* Ajusta según el tamaño que desees */
+    list-style-position: outside;
+    padding-left: 0;
+}
+
+li {
+    border: 1px solid blue;
+    padding: 5px;
+    background-image: url(../../Imagenes/Viñeta.webp);
+    background-size: 20px 20px; /* Ajusta el tamaño de la imagen */
+    background-repeat: no-repeat;
+    background-position: 0 50%; /* Coloca la imagen en el centro vertical */
+    padding-left: 30px; /* Añade espacio para la imagen */
+}
