@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    padding: 2px;
+    padding: 0;
 }
 
 .caja{
@@ -16,4 +16,49 @@ p{
     padding: 10px;
     margin: 50px;
     text-align: center;
+}
+
+.contenedor{
+    width: 400px;
+    height: auto;
+    margin: 20px auto;
+    border: 3px solid purple;
+    overflow: hidden;
+    display: table;
+    padding: 10px;
+    background-color: cornsilk;
+}
+
+.caja2{
+    height: 100px;
+    width: 50px;
+    background-color: aquamarine;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px dashed black;
+    box-sizing: content-box;
+}
+
+.caja3{
+    height: 100px;
+    width: 50%;
+    background-color: aquamarine;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px dashed black;
+    box-sizing: border-box;
+}
+.numeros{
+    background-color: brown;
+    color: white;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
 }
