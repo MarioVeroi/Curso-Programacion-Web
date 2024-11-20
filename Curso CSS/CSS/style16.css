@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+}
+
+.d1{
+    background-color: aqua;
+    width: 100%;
+    height: 50px;
+}
+
+.d2{
+    background-color: rgb(55, 207, 200);
+    width: 70%;
+    height: 600px;
+    float: left;
+}
+
+.d3{
+    background-color: rgb(135, 248, 5);
+    width: 30%;
+    height: 600px;
+    float: right;
+}
+
+.d4{
+    background-color: rgb(3, 61, 250);
+    width: 100%;
+    height: 50px;
+    clear: both;
+}
+
+[class^=i]{
+    height: 100px;
+}
+
+.i1{
+    border: 2px dashed rgb(10, 10, 10);
+}
+
+.i2{
+    border: 2px dashed rgb(250, 4, 4);
+    width: calc(30% - 8px);
+    float: left;
+}
+
+.i3{
+    border: 2px dashed rgb(250, 4, 4);
+    width: 70%;
+    float: right;
+}
+
+.i4{
+    border: 2px dashed rgb(250, 4, 4);
+    clear: both;
+}
